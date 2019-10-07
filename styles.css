@@ -33,7 +33,7 @@ body {
     padding-top: 10px;
   }
   #order-content {
-    /* display:none; */
+    display:none;
     background-size: cover;
     color:white;
     background-color: #FFFFFF;
