@@ -2,19 +2,21 @@ body {
     font-family: serif;
     color: #000000;
     /* background-color: green; */
+    font-weight: bold;
   }
   
   .navbar-inverse {
     background-color: #0f0000;
     color: white;
   }
+
   
   #nav {
     padding-bottom: 10px;
     width: 100%;
   }
   h2{
-    padding-left: 200px;
+    padding-left: 20px;
     font-size: 3rem;
   }
   /* content */
@@ -31,6 +33,7 @@ body {
     padding-top: 10px;
   }
   #order-content {
+    /* display:none; */
     background-size: cover;
     color:white;
     background-color: #FFFFFF;
@@ -73,14 +76,16 @@ body {
     margin-top: 30px;
   }
   .custom{
-  margin-left: 300px;
+  margin-left: 200px;
   }
   body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/30/pizza-1209748__340.jpg)
   }
-  
+  .cart{
+    padding-left: 100px;
+  }
   #custom-pizza-btn {
     display: none;
   }
@@ -120,10 +125,6 @@ body {
     font-size: 20pt;
     margin-bottom: 35px;
   }
-  .form{
-    padding-left: 100px;
-    width: 200px;
-  }
   .pizza-form{
     padding-left: 30px;
     text-align: center;
@@ -138,10 +139,8 @@ body {
   #custom-pizza {
     /* display: none; */
     margin-top: 30px;
-    /* border-style: solid; */
     border-radius: 15%;
     margin-left: 50px;
-    margin-right: 70px;
     width: 100%;
   }
   

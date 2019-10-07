@@ -12,9 +12,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Pizza Order</title>
 </head>
-
 <body>
-  <!-- Navbar Start -->
   <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
       <div class="container">
@@ -32,8 +30,6 @@
       </div>
     </nav>
   </div>
-  <!-- Navbar End -->
-  <!-- Landing Start -->
   <div class="jumbotron" id="landing-content">
     <h1 class="page-header">Amazone Pizza</h1>
     <h2 id="landing-tagline"> Welcome to Amazone.</h2>
@@ -42,7 +38,6 @@
     <button type="btn" class="btn btn-danger" id="delivery-btn">Delivery</button>
     <div class="form-group" id="address">
       <h3>Delivery Address</h3>
-      <!-- Address Form Start -->
       <form id="address-form">
         <div class="row">
           <div class="col-xs-6">
@@ -78,8 +73,6 @@
       </form>
     </div>
   </div>
-  <!-- Landing End -->
-  <!-- Order Content Start -->
   <div class="jumbotron" id="order-content">
     <h1 class="page-header">Order now</h1>
     <div class="row">
@@ -112,7 +105,6 @@
           </div>
         </div>
         <button type="btn" class="btn btn-primary" id="custom-pizza-btn">Custom Pizza</button>
-        <!-- Custom Pizza Form Start -->
         <form class="form-group" id="custom-pizza">
           <div class="pizza-form">
             <div id="form-content">
@@ -216,7 +208,6 @@
           </div>
           <button type="submit" id="submit-custom-pizza" onclick="order()"> Order</button>
         </form>
-        <!-- Custom Pizza Form End -->
       </div>
       <div class="col-xs-2">
         <div class="custom">
@@ -226,13 +217,12 @@
           <button type="btn" class="btn btn-info side-option" id="soda">Italian Soda</button><br>
         </div>
       </div>
-      <!-- Cart Start -->
       <div class="cart">
         <div class="col-xs-4" id="price-content">
           <h1 class="page-header">Cart</h1>
           <h2>Price: $ <span id="final-cost"></span></h2>
           <div id="order-details">
-            <p><a id="pizza-details-dropdown">Custom Pizza</a></p>
+            <p><a id="pizza-details-dropdown">Customer's choice Pizza</a></p>
             <ul id="pizza-details"></ul>
             <p><a id="default-pizza-dropdown">Pizza</a></p>
             <ul id="default-pizza-details"></ul>
@@ -243,17 +233,13 @@
           <h3><span id="delivery-option"></span></h3>
         </div>
       </div>
-      <!-- Cart End -->
     </div>
   </div>
-  <!-- Order Content End -->
-  <!-- Footer Start -->
   <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
       <div class="navbar-text pull-left">Site built by Dancan Oduor</div>
     </nav>
   </div>
-  <!-- Footer End -->
   <script src="script.js"></script>
 
 </body>
