@@ -12,9 +12,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Pizza Order</title>
 </head>
-
 <body>
-  <!-- Navbar Start -->
   <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
       <div class="container">
@@ -24,25 +22,22 @@
           </div>
         </a>
         <div class="navbar-text pull-right"><a href="https://twitter.com/DancunOduor2"><i
-              class="fa fa-twitter fa-4x">twitter</i></a></div>
+              class="fa fa-twitter fa-4x bg-blue"></i></a></div>
         <div class="navbar-text pull-right"><a href="https://www.instagram.com/"><i
-              class="fa fa-instagram fa-4x">instagram</i></a></div>
+              class="fa fa-instagram fa-4x bg-pink"></i></a></div>
         <div class="navbar-text pull-right"><a href="https://www.pinterest.com"><i
-              class="fa fa-pinterest fa-4x">pinterest</i></a></div>
+              class="fa fa-pinterest fa-4x"></i></a></div>
       </div>
     </nav>
   </div>
-  <!-- Navbar End -->
-  <!-- Landing Start -->
   <div class="jumbotron" id="landing-content">
     <h1 class="page-header">Amazone Pizza</h1>
-    <h2 id="landing-tagline">Serving your daily pizza cravings! Available through online order only.</h2>
-    <p>*Delivery only available in select states</p>
-    <button type="btn" class="btn btn-primary" id="pickup-btn">Pickup</button>
+    <h2 id="landing-tagline"> Welcome to Amazone.</h2>
+    <p>Click to order now!</p>
+    <button type="btn" class="btn btn-primary" id="pickup-btn">Take away</button>
     <button type="btn" class="btn btn-danger" id="delivery-btn">Delivery</button>
     <div class="form-group" id="address">
       <h3>Delivery Address</h3>
-      <!-- Address Form Start -->
       <form id="address-form">
         <div class="row">
           <div class="col-xs-6">
@@ -78,10 +73,8 @@
       </form>
     </div>
   </div>
-  <!-- Landing End -->
-  <!-- Order Content Start -->
   <div class="jumbotron" id="order-content">
-    <h1 class="page-header">Order Options</h1>
+    <h1 class="page-header">Order now</h1>
     <div class="row">
       <div class="col-xs-6">
         <h2>Pizza</h2>
@@ -112,11 +105,10 @@
           </div>
         </div>
         <button type="btn" class="btn btn-primary" id="custom-pizza-btn">Custom Pizza</button>
-        <!-- Custom Pizza Form Start -->
         <form class="form-group" id="custom-pizza">
           <div class="pizza-form">
             <div id="form-content">
-              <h3 id="form-header">Custom Pizza Form</h3>
+              <h3 id="form-header"> Pizza options</h3>
               <div class="row container">
                 <div class="col-xs-6">
                   <p>Size</p>
@@ -201,7 +193,7 @@
                   <div class="col-md-6">
                     <p>Meat (+$2)</p>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-xs-6">
                     <select required="" class="form-control" id="meat">
                       <option></option>
                       <option value="chicken">Chicken</option>
@@ -214,46 +206,40 @@
               </div>
             </div>
           </div>
-          <button type="submit" class="btn btn-danger" id="submit-custom-pizza" onclick="order()">Place Order</button>
+          <button type="submit" id="submit-custom-pizza" onclick="order()"> Order</button>
         </form>
-        <!-- Custom Pizza Form End -->
       </div>
       <div class="col-xs-2">
         <div class="custom">
-          <h2>Sides</h2>
+          <h2>pizza sides</h2>
           <button type="btn" class="btn btn-info side-option" id="breadsticks">Breadsticks</button><br>
           <button type="btn" class="btn btn-info side-option" id="brownie">Brownie</button><br>
           <button type="btn" class="btn btn-info side-option" id="soda">Italian Soda</button><br>
         </div>
       </div>
-      <!-- Cart Start -->
       <div class="cart">
         <div class="col-xs-4" id="price-content">
           <h1 class="page-header">Cart</h1>
           <h2>Price: $ <span id="final-cost"></span></h2>
           <div id="order-details">
-            <p><a id="pizza-details-dropdown">Custom Pizza</a></p>
+            <p><a id="pizza-details-dropdown">Customer's choice Pizza</a></p>
             <ul id="pizza-details"></ul>
             <p><a id="default-pizza-dropdown">Pizza</a></p>
             <ul id="default-pizza-details"></ul>
             <p><a id="sides-dropdown">Sides</a></p>
             <ul id="sides-details"></ul>
           </div>
-          <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
+          <button type="btn" id="checkout-btn">Clear</button>
           <h3><span id="delivery-option"></span></h3>
         </div>
       </div>
-      <!-- Cart End -->
     </div>
   </div>
-  <!-- Order Content End -->
-  <!-- Footer Start -->
   <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
       <div class="navbar-text pull-left">Site built by Dancan Oduor</div>
     </nav>
   </div>
-  <!-- Footer End -->
   <script src="script.js"></script>
 
 </body>
