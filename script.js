@@ -119,7 +119,7 @@ $(document).ready(function(event) {
     $("#sides-details").append("<ul><li>" + "16oz., root-beer italian soda" + "</li></ul>");
   });
   $("#sides-dropdown").click(function() {
-    $("#sides-details").toggle();
+    // $("#sides-details").toggle();
   });
 ///Checkout Btn
   $("#checkout-btn").click(function() {
