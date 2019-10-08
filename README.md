@@ -14,5 +14,5 @@ The site was created using HTML, CSS and Javascript as the primary languages. Bo
 
 Support and contact details
 
-If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me @ dancansterio@gmail.com. Live Site To view this site access 
+If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me @ dancansterio@gmail.com. Live Site To view this site access  https://dancanoduor.github.io/Amazone-pizza/
 
